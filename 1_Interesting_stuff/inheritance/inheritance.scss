@@ -1,0 +1,26 @@
+// An object is made whit %, like in POOP
+%message {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+
+.success {
+    // Copy the same attributes in %message
+    @extend %message;
+    // And only add the different background-color
+    background-color: #108f10;
+}
+
+.warning {
+    @extend %message;
+    background-color: #55cadf;
+}
+
+.error {
+    @extend %message;
+    background-color: #b544b9;
+}

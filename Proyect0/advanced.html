@@ -1,0 +1,91 @@
+<!-- https://www.google.com/search?hl=en-MX&as_q=avocado+&as_epq="rat"+&as_oq=fun+&as_eq=violence&as_nlo=20&as_nhi=40&lr=lang_en&cr=countryMX&as_qdr=d&as_sitesearch=wikipedia.com&as_occt=body&safe=images&as_filetype=pdf&tbs=sur%3Af
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/icon.png">
+    <link rel="stylesheet" href="css/adv_style.css">
+    <title>Advanced search</title>
+</head>
+<body>
+    <a href="advancedV2.html">CWD</a>
+    <!---------
+    Navigation bar
+    --------->
+    <nav>
+        <!-- This will send me again to index -->
+        <a href="index.html"><img src="img/googlex2.png" alt="Google icon in white"></a>
+        
+        <div class="top_right">
+            <img class="menu" src="img/white_menu.png">
+            <img class="ppicture" src="img/shogun.png" alt="shogun profile picture">
+        </div>
+
+    </nav>
+    <div class="red_text">
+        <p>Advanced search</p>
+    </div>
+
+    <!---------
+    Questions: Every question must be in the ... same form
+    --------->
+    <div>
+
+        <div class="sub_title">
+            <p class="sub_title__right">Find pages whit...</p>
+            <p>To do this in the search box.</p>
+        </div>
+
+        <form action="">
+            <!-- Question 1 -->
+            <div class="questions">
+                <p class="questions__left_side">all these words:</p>
+                <input type="text" placeholder=" owo " size="75">
+                <p>Type the important words: <span>tri-colour rat terrier</span></p>
+            </div>
+            <!-- Question 2 -->
+            <div class="questions">
+                <p class="questions__left_side">this exact word or phrase:</p>
+                <input type="text" placeholder=" owo " size="75">
+                <p>Put exact words in quotes: <span>"rat terrier"</span></p>
+            </div>
+
+            <!-- Question 3 -->
+            <div class="questions">
+                <p class="questions__left_side">any of these words:</p>
+                <input type="text" placeholder=" owo " size="75">
+                <p>Type <span>OR</span> between all the words you want: <span>miniature OR standard</span></p>
+            </div>
+
+            <!-- Question 4 -->
+            <div class="questions">
+                <p class="questions__left_side">none of these words:</p>
+                <input type="text" placeholder=" owo " size="75">
+                <p>Put a minus sign just before words that you don't want: <span>-rodent, -"Jack Russell"</span></p>
+            </div>
+
+            <!-- Question 5, special case... -->
+            <div class="questions">
+                <p class="questions__left_side">numbers ranging from:</p>
+
+                <input id="questions--input_1" type="text" placeholder=" owo " size="75">
+
+                <p id="questions--middle"> to </p>
+
+                <input id="questions--input_2" type="text" placeholder=" owo " size="75">
+
+                <p id="questions--right_side">Put two full stops between the numbers and add a unit of measurement: <span>10..35 kg, £300..£500, 2010..2011</span></p>
+            </div>
+            
+        </form>
+
+    </div>
+
+    
+</body>
+<footer>PATAS</footer>
+</html>

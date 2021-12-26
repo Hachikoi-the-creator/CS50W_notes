@@ -1,0 +1,219 @@
+*{
+	padding: 0;
+	margin:0;
+	/* Cool layout improvent on top */
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: arial, sans-serif;
+	background-color: #202124;
+}
+
+/* -------
+General settings
+------- */
+body {
+	display: flex;
+	/* useful trick when working whit flex */
+	flex-direction: column;
+	/* Send the footer to the end of the page */
+	min-height: 100vh;
+}
+/* ------- nav
+The box where the "Gmail","Images","Login" are
+------- */
+nav {
+	display: flex;
+	align-items: center;
+	/* same as align to the right! */
+	justify-content: flex-end;
+	margin-right: 30px; 
+	margin-top: 14px;
+}
+
+/* ------- nav
+Behaivour of the links "Gmail" & "Images"
+------- */
+nav a {
+	font-size: 13px;
+	display: inline-block;
+	line-height: 24px;
+	/* how ticc & dark(color charged is) */
+	/* font-weight: 400; */
+	color:#e8eaed;
+	cursor: pointer;
+	padding: 5px 6.7px
+}
+nav a:hover {
+	/* This is pretty cool! */
+	text-decoration: underline;
+	opacity: .85;
+}
+
+/*-------nav
+ images
+ -------*/
+nav img {
+	width: 2rem;
+	padding: 5px;
+	margin: auto 7px;
+	/* Changes the behaivour of the cursor! omg */
+	cursor: pointer;
+}
+nav img:hover {
+	/* Same as in links in nav + interactiveness*/
+	opacity: .8;
+}
+/* Personalized profile picture */
+.ppicture {
+	width: 3rem;
+	height: 3rem;
+	border-radius: 50%;
+}
+
+/* ------- body
+Behaivour of the links "Gmail" & "Images"
+------- */
+section {
+	/* Shorthand to how the responsiveness whit  behave */
+	flex: 1;
+}
+
+/*------- body
+ Google big logo 
+ -------*/
+.logo {
+	display: block;
+	/* Whit auto, centers itself in X axis! */
+	margin: 0 auto;
+	margin-top: 4.5rem;
+}
+
+/*------- body
+div for input stylish thingy
+-------*/
+.s-box {
+	width: 35rem;
+	margin: 0 auto;
+	/* helps to put it inside the search bar, prob */
+	position: relative;
+	margin-top: 3rem;
+	text-align: center;
+}
+
+.s-input {
+	display: block;
+	border: 1px solid #ddd;
+	color: #e8eaed;
+	font-size: 1rem;
+	padding: 0.8rem;
+	padding-left: 2.8rem;
+	/* Whit this we achive the rounded borders!!!, picture must be an square tho */
+	border-radius: 1.5rem;
+	width: 100%;
+	transition: 100ms;
+	/* erases ugly default thingy when writing */
+	outline: none;
+}
+
+.s-input:hover {
+	border: 1px solid rgba(0, 0, 0, 80%);
+}
+
+.search-icon {
+	width: 20px;
+	opacity: .4;
+	position: absolute;
+	top: 13px;
+	left: 14px;
+}
+
+.vs-icon {
+	width: 1.2rem;
+	position: absolute;
+	top: 13px;
+	right: 19px;
+}
+
+/* -------
+Search Buttons
+------- */
+.s-btn {
+	border: 1px solid transparent;
+	padding: 9px 15px;
+	background-color: #303134;
+	color: #e8eaed;
+	font-size: 14px;
+	border-radius: 4px;
+	display: inline-block;
+	margin-right: 10px;
+	margin-top: 28px;
+	outline: none;
+	cursor: pointer;
+	transition: 100ms;
+}
+.s-btn:hover {
+	border: 1px solid rgb(100, 99, 99);
+}
+
+/* -------
+Text below the search bar
+------- */
+.lang {
+	margin-top: 30px;
+	text-align: center;
+	font-size: 13px;
+	color: #e8eaed;
+}
+.lang a {
+	margin-left: 5px;
+	color: #457fd4;
+}
+.lang a:hover {
+	text-decoration: underline;
+}
+
+/* ------- footer
+General settings
+------- */
+footer {
+	background: #171717;
+	
+}
+
+footer h4 {
+	border-top: 1.2px solid #cecece;
+	color: #e8eaed;
+	font-size: 15px;
+	line-height: 39.5px;
+	font-weight: 400;
+	padding-left: 29px;
+}
+
+footer a {
+	border-bottom: 1.2px solid #909090;
+	color: #e8eaed;
+	display: inline-block;
+	padding: 12px 11.3px;
+	font-size: 14px;
+}
+
+/* ------- footer
+hover link & links rules
+------- */
+footer a:hover {
+	text-decoration: underline;
+}
+
+.links {
+	border-top: 1px solid #ddd;
+	display: flex;
+}
+.link-1 {
+	margin-left: 12%;
+	padding-left: 18.7px;
+	flex: 1;
+}
+.link-2 {
+	padding-right: 18.7px;
+	margin-right: 12%;
+}

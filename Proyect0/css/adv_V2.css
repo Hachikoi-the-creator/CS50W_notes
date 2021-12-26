@@ -1,0 +1,52 @@
+* {
+    text-decoration: none;
+    font-family: arial, sans-serif;
+    background-color: #202124;
+    /* background-color: antiquewhite; */
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    /* kinda real important for responsiveness */
+    flex-wrap: wrap;
+    border: palevioletred 2px solid;
+    justify-content: center;
+}
+/* Google logo - link */
+#to_left {
+    
+    margin-right: 55%;
+    border: palevioletred 2px solid;
+}
+/* images on top_right */
+.menu {
+    width: 60px;
+}
+.ppicture {
+    width: 85px;
+
+}
+/* fake buttons hehe */
+.ppicture:hover, .menu:hover{
+    cursor: pointer;
+}
+
+/*-------main
+ Questions w/grid
+ -------*/
+.red_text {
+    color:#f28b82;
+	opacity: 120%;
+	font-weight: 400;
+	font-size: 20px;
+	/* shorthand is cooler uwu */
+	padding: 2% 0 2% 3%;
+	border-bottom:1px solid #e8eaed;
+}
+ main {
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+}
+
+ 

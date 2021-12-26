@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>My Web Page!</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .grid {
+                background-color: green;
+                display: grid;
+                padding: 20px;
+                /* space | */
+                grid-column-gap: 20px;
+                /* space --- */
+                grid-row-gap: 10px;
+                /* How much space every column will ocupy 3/3 */
+                /* Depending of how many arguments, the N° of columns created */
+                grid-template-columns:auto auto auto;
+
+            }
+
+            .grid-item {
+                background-color: #e9d2d2;
+                font-size: 20px;
+                padding: 20px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="grid">
+            <div class="grid-item">1</div>
+            <div class="grid-item">2</div>
+            <div class="grid-item">3</div>
+            <div class="grid-item">4</div>
+            <div class="grid-item">5</div>
+            <div class="grid-item">6</div>
+            <div class="grid-item">7</div>
+            <div class="grid-item">8</div>
+            <div class="grid-item">9</div>
+            <div class="grid-item">10</div>
+            <div class="grid-item">11</div>
+            <div class="grid-item">12</div>
+        </div>
+    </body>
+</html>
+

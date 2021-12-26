@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Features(?) when selecting a previous search, changes color -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Google</title>
+	<link rel="icon"  href="img/icon.png">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<!-------  
+	Navigation bar on top
+	------->
+	<nav>
+      	<a href="../Actual_portfolio/index.html">Gmail</a>
+      	<a href="#">Images</a> 
+		  
+      	<img src="img/white_menu.png">
+      	<img class="ppicture" src="img/shogun.png" alt="shogun profile picture">
+	</nav>
+
+	<!-------  
+	The input zone
+	------->
+	<section>
+		<img class="logo" src="img/logo.png">
+		
+		<form action="https://google.com/search">
+			
+			<div class="s-box">
+				<img class="search-icon" src="img/search.png">
+				<!-- This input sends the data as 'q' (GET query) -->
+				<input class="s-input" type="text" placeholder="Search" name ="q">
+
+				<img class="vs-icon" src="img/voice-rec.png" >
+				<!-- Buttons -->
+				<input class="s-btn" type="submit" value="Google Search" name="btnK">
+				<!-- name=btnI was the key.... omg  -->
+				<input class="s-btn" type="submit" value="I'm Feeling Lucky" name="btnI">
+			</div>
+
+			<!-------  
+			Small text below input zone
+			------->
+			<div class="lang">
+				<!-- Not in <p> to lower work -->
+				Google offered in:
+				<a href="#">Español</a>
+				<a href="#">(Latinoamerica)</a>
+			</div>
+		</form>
+	</section>
+	
+	<!-------  
+	Footer text
+	------->
+	<footer>
+	<h4>Mexico</h4>
+	<div class="links">
+		<div class="link-1">
+			<a href="#">About</a>
+			<a href="#">Advertising</a>
+			<a href="#">Business</a>
+			<a href="#">How Search works</a>
+		</div>
+		<div class="link-2">
+			<a href="#">Privacy</a>
+			<a href="#">Terms</a>
+			<a href="#">Settings</a>
+		</div>
+	</div>
+	</footer>
+
+</body>
+</html>

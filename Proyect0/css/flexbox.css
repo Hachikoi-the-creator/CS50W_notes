@@ -1,0 +1,50 @@
+* {
+    background-color: rgb(140, 158, 158);
+    margin: 0;
+    padding: 0;
+}
+/*-------nav
+The stuff on top (hell)
+-------*/
+.container {
+    display: flex;
+    /* kinda real important for responsiveness */
+    flex-wrap: wrap;
+    /* flex-shrink: 1; */
+    border-bottom:1px solid #e8eaed;
+    justify-content: center;
+}
+/* Google logo - link to index */
+#to_left {
+    width: 5rem;
+}
+/* adjust Google's position */
+nav a { 
+    margin-right: 82%;
+}
+/* Adjust midle picture */
+#nav_middle {
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: 20px 18px 0 0;
+}
+/* shogun */
+nav img#rounded {
+    margin-top: 8px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+/*-------nav
+a little below nav
+-------*/
+div.red_text  {
+	color:#f28b82;
+	opacity: 120%;
+	font-weight: 400;
+	font-size: 20px;
+	/* shorthand is cooler uwu */
+	padding: 2% 0 2% 3%;
+    margin-right: 80%;
+	/* border-bottom:1px solid #e8eaed; */
+}
