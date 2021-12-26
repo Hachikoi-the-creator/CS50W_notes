@@ -1,16 +1,15 @@
 <style>
     body{
-    background-color:rgb(0, 37, 46);
-    color: black; 
+    color: black;
   }
-  p, ul, li{
-    color:#cd82ff;
-  }
-  h1,h2,h3,h4,h5,h6{
+  h1{
     color:#5afff7;
   }
 </style>
+
 **HTTP = Hyper Text Transfer Protocol**
+
+# Some theory
 
 ## HTTP query example
 *get command, http and it's version*
@@ -47,14 +46,17 @@ Content-Type: text/html
 
 Create one once you are inside the desired dir
 
-## Create one
+### Create one
 
-- **$** python3 -m venv env
-- python -m venv env
+- **$** python3 -m venv (name of the venv)
+- python -m venv (name of the venv)
 
-## Activate it 
+### Activate it
 
 - .\venvi\Scripts\activate
+
+### Install Django once activated
+- pip install Django
 
 # Django
 
