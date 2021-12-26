@@ -1,0 +1,1 @@
+Repeating the whole process until  we add a view in views.py and add it to the config.py 
